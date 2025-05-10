@@ -1,0 +1,95 @@
+:root {
+    --main-color: #0ABEAD;
+    --second-color: #F57F17;
+    --text-color: #333333;
+    --bg-app: #FFFFFF;
+    --bg-section: #FFFFFF;
+}
+
+:root.dark--theme {
+    --bg-app: #161D26;
+    --bg-section: #1F2935;
+    --text-color: #95A5C6;
+}
+:root.dark--theme header,
+:root.dark--theme .home__img,
+:root.dark--theme .aboutus__box,
+:root.dark--theme .resume,
+:root.dark--theme .list,
+:root.dark--theme .pricing,
+:root.dark--theme .price{
+    box-shadow: none;
+}
+
+:root.dark--theme .home{
+    background: url("../images/shapes/dark-header-shape.svg") no-repeat bottom;
+}
+
+.btn {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Poppins SemiBold";
+}
+
+.btn--green {
+    background: var(--main-color);
+    box-shadow: 0px 8px 14px 0px rgba(11, 190, 173, 41%);
+}
+
+.btn--orange {
+    background: var(--second-color);
+    box-shadow: 0px 8px 14px 0px rgba(245, 127, 23, 41%);
+}
+
+.bg--perpul {
+    background-color: #8540FF;
+}
+
+.bg--yellow {
+    background-color: #FFC50C;
+    fill: #FFBB01;
+}
+
+.bg--pink {
+    background-color: #EC407A;
+    fill: #F5276C;
+}
+
+.bg--orang {
+    background-color: #FF6331;
+    fill: #FF5823;
+}
+
+.bg--blue {
+    background-color: #13B6FF;
+    fill: #03ACF8;
+}
+
+.bg--green {
+    background-color: #49AF46;
+    fill: #49B846;
+}
+
+.skew--refresh {
+    transform: skewY(4deg);
+}
+
+.orange {
+    background: #F57F17;
+    box-shadow: 0 0 1.3rem .8rem rgba(246, 127, 23, 24%);
+}
+
+.pepul {
+    background: #803AFB;
+    box-shadow: 0 0 1.3rem .8rem rgba(128, 58, 251, 24%);
+}
+
+.pink {
+    background: #F5276C;
+    box-shadow: 0 0 1.3rem .8rem rgba(245, 39, 108, 24%);
+}

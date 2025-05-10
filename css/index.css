@@ -1,0 +1,529 @@
+main {
+    padding-top: 12.4rem;
+    position: relative;
+}
+
+.home {
+    height: 75rem;
+    background: url("../images/shapes/header-shape.svg") no-repeat bottom;
+}
+
+.home__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8.4rem;
+}
+
+.home__content {}
+
+.home__name {
+    font-family: "Poppins SemiBold";
+    color: var(--main-color);
+    font-size: 2.2rem;
+}
+
+.home__name span {
+    color: var(--second-color);
+}
+
+.home__job {
+    font-family: "Poppins Bold";
+    color: var(--main-color);
+    font-size: 4rem;
+}
+
+.home__info {}
+
+.home__links {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.home__links:first-child {
+    background: var(--main-color);
+}
+
+.home__link {
+    margin-right: 2rem;
+}
+
+.home__img {
+    width: 37rem;
+    height: 37rem;
+    background-image: url("../images/header-avatar.jpg");
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 19px 3px rgba(96, 233, 255, 27%);
+    border: 1.2rem solid #ffffff;
+}
+
+.aboutus {
+    margin: 8rem 0;
+}
+
+
+.title {
+    width: 100%;
+    margin-bottom: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 20rem;
+    height: .2rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    background: var(--main-color);
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 5rem;
+    height: 1rem;
+    border-radius: 10rem;
+    margin-top: .5rem;
+    background: var(--main-color);
+}
+
+.title__text {
+    width: 100%;
+    font-family: "Poppins Bold";
+    color: var(--main-color);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.title__about {
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+.aboutus__box {
+    width: 100%;
+    display: flex;
+    background: var(--bg-section);
+    box-shadow: 0 0 13px 1px rgba(96, 233, 255, 27%);
+
+}
+
+.aboutus__man {
+    width: 40%;
+}
+
+.aboutus__wrapper {
+    padding: 2.5rem;
+}
+
+.aboutus__title {
+    font-size: 2.4rem;
+    margin-bottom: .8rem;
+    font-family: "Poppins SemiBold";
+}
+
+.aboutus__info {
+    margin-bottom: 8rem;
+    text-align: justify;
+}
+
+.aboutus__features {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    font-family: "Poppins SemiBold";
+}
+
+.aboutus__feature {
+    margin-bottom: .5rem;
+    position: relative;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.aboutus__feature::before {
+    content: "";
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 10rem;
+    background: var(--second-color);
+    left: -2.5rem;
+}
+
+.services__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: #ffffff;
+    margin: 8rem 0;
+}
+
+.service {
+    width: 37rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    flex-grow: 1;
+    z-index: -2;
+    padding: 6rem 2rem;
+    overflow: hidden;
+}
+
+.service__icon {}
+
+.service__title {
+    width: 100%;
+    font-family: "Poppins Bold";
+    font-size: 2.4rem;
+    margin: 1.5rem 0;
+}
+
+.service__info {
+    max-width: 30rem;
+}
+
+.service__shape {
+    position: absolute;
+    z-index: -1;
+    bottom: -14rem;
+    width: 100%;
+}
+
+.resume {
+    margin: 10rem 0 8rem 0;
+    background: var(--bg-section);
+    box-shadow: 0 0 20px 7px rgba(19, 182, 255, 24%);
+    padding: 6rem 0;
+    transform: skewy(-4deg);
+}
+
+.resume__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    background: var(--bg-app);
+    height: 32rem;
+    max-width: 27rem;
+    box-shadow: 0 0 20px 11px rgba(96, 233, 255, 27%);
+    padding: 2.5rem 2.5rem 2.5rem .6rem;
+    margin-right: 10rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.list::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3.4rem;
+    height: 100%;
+    background: var(--main-color);
+}
+
+.list__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    z-index: 3;
+    /* margin: 1.5rem 0; */
+}
+
+.list__item::before {
+    content: '';
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 10rem;
+    background: var(--main-color);
+    left: .7rem;
+    z-index: -1;
+    transition: all ease-in-out .2s;
+}
+
+.list__item span {
+    transition: all ease-in-out .2s;
+}
+
+.list__item--active::before {
+    width: 24rem;
+}
+
+.list__item--active>span {
+    color: #ffffff;
+
+}
+
+.list__icon {
+    margin-right: 2.5rem;
+}
+
+.list__text {
+    font-family: "Poppins SemiBold";
+}
+
+.content__resume {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all ease-in-out .2s;
+}
+
+.content__resume--acctive {
+    height: auto;
+    overflow: visible;
+    opacity: 1;
+}
+
+.content__resume::before {
+    content: "";
+    position: absolute;
+    width: .2rem;
+    height: 100%;
+    background: var(--main-color);
+    left: -2rem;
+}
+
+.content__wrapper {}
+
+.content__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__title {
+    font-size: 1.8rem;
+    font-family: "Poppins SemiBold";
+    color: var(--second-color);
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.content__title::before {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 10rem;
+    left: -2.9rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.content__date {
+    background: var(--second-color);
+    padding: .2rem 1.5rem;
+    border-radius: 10rem;
+    color: #ffffff;
+}
+
+.content__summery {
+    font-family: "Poppins SemiBold";
+}
+
+.content__info {}
+
+.portfolio {
+    margin: 8rem 0;
+
+}
+
+.portfolio__wrapper {}
+
+.portfolio__links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.portfolio__link {
+    margin: 0 1.5rem;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    padding: 1.2rem 3rem;
+    border-radius: 10rem;
+}
+
+.portfolio__link--active {
+    background: var(--main-color);
+    color: #ffffff;
+}
+
+.portfolio__image {
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 2rem;
+    height: 2rem;
+    background: none;
+    border: .4rem solid #BFBEBE;
+}
+
+.swiper-pagination-bullet-active {
+    border-color: var(--main-color);
+}
+
+.swiper-pagination {
+    position: static;
+    margin-top: 1rem;
+}
+
+.portfolio-content__wrapper {
+    display: none;
+}
+
+.portfolio-content__wrapper--active {
+    display: block;
+}
+
+.pricing {
+    margin: 10rem 0 8rem 0;
+    background: var(--bg-section);
+    box-shadow: 0 0 20px 7px rgba(19, 182, 255, 24%);
+    padding: 6rem 0;
+    transform: skewy(-4deg);
+}
+
+.pricing__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0;
+    flex-wrap: wrap;
+}
+
+.price {
+    width: 33rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: var(--bg-app);
+    box-shadow: 0 0 20px 11px rgba(96, 233, 255, 27%);
+    padding-bottom: 2rem;
+    margin: 1.5rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.price__title {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.price__title--orange {
+    background: #FF6331;
+
+}
+
+.price__title--perpul {
+    background: #803AFB;
+}
+
+.price__title--pink {
+    background: #F5276C;
+}
+
+.price__name {
+    font-family: "Poppins SemiBold";
+    font-size: 2.4rem;
+}
+
+.price__price {
+    font-family: "Poppins SemiBold";
+    font-size: 1.8rem;
+}
+
+.price__for {}
+
+.price__talents {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.price__talent {
+    margin: 2rem 0;
+}
+
+.contactus__cover {
+    width: 100%;
+    background: url('../images/map.jpg') no-repeat center;
+    padding: 3.5rem 0 5rem 0;
+}
+
+.contactus__wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.login-form {
+    width: 40rem;
+    background: var(--bg-section);
+    padding: 3rem;
+    box-shadow: 0 0 16px 7px rgba(19, 182, 255, 24%);
+}
+
+.login-form__title {
+    font-family: "Poppins Bold";
+    font-size: 2.4rem;
+    color: var(--main-color);
+}
+
+.login-form__form {}
+
+.login-form__info {
+    width: 100%;
+    margin: 1.2rem 0;
+    background: var(--bg-app);
+    border: none;
+    padding: 1.4rem 1.3rem;
+    color: var(--text-color);
+    box-shadow: 0 0 12px 5px rgba(96, 233, 255, 27%);
+    border-radius: 1rem;
+}
+
+.login-form__info::placeholder {
+    color: var(--text-color);
+}
+
+.login-form__submit {
+    width: 100%;
+    border-radius: 10rem;
+    background: var(--main-color);
+    border: none;
+    color: #ffffff;
+    padding: 1.5rem 0;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
