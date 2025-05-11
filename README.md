@@ -25,6 +25,11 @@ Dark Mode 👇
 - JavaScript
 - Swiper.js
 
+### 🙌 Author
+
+Made with ❤️ by **Ali Mohammadi**  
+[GitHub Profile](https://github.com/alimohammadi00)
+
 ### 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
