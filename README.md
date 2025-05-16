@@ -5,10 +5,10 @@ A modern, responsive landing page designed to showcase personal skills and proje
 ### 📸 Preview
 
 Light Mode 👇  
-![Light Mode Website](https://github.com/AliMohammadi00/WA-personal-landing/blob/master/screenshots/light-mode-site.png)
+![Light Mode Website](https://github.com/AliMohammadi00/WA-personal-landing/blob/master/images/lightmodescreenshot.png)
 
 Dark Mode 👇  
-![Dark Mode Website](https://github.com/AliMohammadi00/WA-personal-landing/blob/master/screenshots/dark-mode-site.png)
+![Dark Mode Website](https://github.com/AliMohammadi00/WA-personal-landing/blob/master/images/darkmodescreenshot.png)
 
 ### 📁 Features
 
